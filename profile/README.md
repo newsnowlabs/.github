@@ -1,8 +1,10 @@
 # Welcome to NewsNow Labs
 
-NewsNow Labs is the R&D arm of global top-50 news website [NewsNow](https://www.newsnow.co.uk/about). It performs cutting-edge research across natural language processing, machine learning, infrastructure management, and software development tooling.
+NewsNow Labs is the R&D arm of global top-50 news website [NewsNow](https://www.newsnow.co.uk/about), _The Independent News Discovery Platform_.
 
-## Our projects
+NewsNow Labs performs cutting-edge research across natural language processing, machine learning, infrastructure management, and software development tooling. Where it can, it makes its research public.
+
+## Our public projects
 
 ### Dockside
 
@@ -12,7 +14,7 @@ Dockside lets developers provision and access lightweight, fully containerised a
 
 By provisioning a devtainer for each task or branch, collaborative software and product development teams can make their lean and iterative development practices much more productive and efficient.
 
-Dockside is free and open-source and can be hosted by anyone on-prem or in the cloud.
+Dockside is free and open-source and can be hosted by anyone, on-prem or in the cloud.
 
 To learn more, see [dockside.io](https://dockside.io), view [Dockside on Github](https://github.com/newsnowlabs/dockside), and to see Dockside in action try the [Dockside Live Demo](https://www.demo.dockside.cloud/demo/).
 
@@ -29,3 +31,17 @@ To learn more, view [DIRD on Github](https://github.com/newsnowlabs/docker-ingre
 ## Contact
 
 Please reach out to us with any suggestions or queries on the [NewsNow Labs Slack Workspace](https://join.slack.com/t/newsnowlabs/shared_invite/zt-wp54l05w-0DTxuc_n8uISJRtks3Xw3A). We are typically available Monday-Friday, 9am-5pm London time.
+
+## More about NewsNow
+
+[NewsNow](https://www.newsnow.co.uk/) is the UK’s largest independent news aggregation and discovery platform. A one-stop shop for news for 12m unique monthly visitors, NewsNow is a UK top 50 website, and a [global top 50 English-language news site](https://pressgazette.co.uk/most-popular-websites-news-world-monthly/), that also provides [US](https://www.newsnow.com/us/), [Nigerian](https://www.newsnow.com/ng/) and [Romanian](https://www.newsnow.com/ro/) editions.
+
+NewsNow is proud of its 25-year heritage and its place within the media ecosystem, providing an editorially-driven platform that makes it easy for millions of people to discover news from thousands of publishers; and for publications - particularly those that are smaller and independent - to access audiences that can be otherwise hard to reach. The NewsNow platform helps support the growth of credible, independent and public interest journalism and news media plurality.
+
+At NewsNow, we believe a healthy society needs a healthy news diet. Today, we are focussed on how we can improve our own services to facilitate this; and how, together with other news organisations, we can move towards a future where public interest news and journalism is funded sustainably by the people it serves.
+
+[Read more about NewsNow’s social mission, ethos and history.](https://www.newsnow.co.uk/about/)
+
+NewsNow is led by a gender-diverse and technically-minded board. Of our three directors, two are developers — and that includes the Founder & CEO, Struan Bartlett (who is also the founding developer of [Dockside](https://dockside.io)). This means that development is core to the business: developers are appreciated for their creative input and areas of excellence; and the importance of investing in solutions that stand the test of time, and in managing technical debt, is well understood.
+
+If this sounds like a place you might like to work, please check out the [NewsNow Careers page](https://www.newsnow.co.uk/careers/) for current vacancies.
