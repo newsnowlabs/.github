@@ -28,6 +28,22 @@ DIRD is the most lightweight solution available for directly exposing client IPs
 
 To learn more, view [DIRD on Github](https://github.com/newsnowlabs/docker-ingress-routing-daemon).
 
+## RunCVM
+
+RunCVM (Run Container Virtual Machine) is an experimental open-source Docker container runtime for Linux, that makes launching standard containerised workloads in virtual machines (VMs) as easy as launching them in containers, using `docker run`.
+
+RunCVM:
+   - provides stronger workload isolation than standard containers
+   - allows running and testing applications like `systemd`, Docker, and Kubernetes that won't easily run in standard containers
+   - supports tools and apps like `iptables`, `ipvsadm` or `openvpn` that requires a running kernel (or a kernel version or modules not available on the host)
+   - can emulate specific hardware e.g. disks, network cards, and graphics displays
+   - makes it easy to create arrays of networked VMs for testing complex multi-machine setups like Docker Swarms
+   - makes an ideal playground for pre-bare-metal training and testing
+
+RunCVM uses a lightweight 'wrapper-runtime' technology that piggybacks the standard container runtime `runc`, making its code footprint and external dependencies small. It is built by bolting together 'off-the-shelf' (i.e. pre-existing open-source) components using shell script for simplicity, portability and ease of development.
+
+To learn more, view [RunCVM on Github](https://github.com/newsnowlabs/runcvm).
+
 ## Contact
 
 Please reach out to us with any suggestions or queries on the [NewsNow Labs Slack Workspace](https://join.slack.com/t/newsnowlabs/shared_invite/zt-wp54l05w-0DTxuc_n8uISJRtks3Xw3A). We are typically available Monday-Friday, 9am-5pm London time.
