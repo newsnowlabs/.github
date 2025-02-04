@@ -44,6 +44,20 @@ RunCVM uses a lightweight 'wrapper-runtime' technology that piggybacks the stand
 
 To learn more, view [RunCVM on Github](https://github.com/newsnowlabs/runcvm).
 
+## log_do
+
+log_do is a bash library to assist writing self-documenting self-logging bash scripts, by simply prefacing each command with log_do.
+
+log_do makes bash scripts easy to develop, debug and use, through:
+
+- logging every command, its stdout, stderr and exit code;
+- providing an automagic dry-run mode;
+- providing an automagic interactive execution mode.
+
+Thanks to these features, log_do helps you build complex sysadmin bash scripts iteratively and keep them well maintained. Thanks to the built-in dry-run mode, that lists all commands without executing them, log_do reduces the cognitive load needed for running scripts with which you are (or have become over time) unfamiliar.
+
+To learn more, view [log_do on Github](https://github.com/newsnowlabs/log_do).
+
 ## Contact
 
 Please reach out to us with any suggestions or queries on the [NewsNow Labs Slack Workspace](https://join.slack.com/t/newsnowlabs/shared_invite/zt-wp54l05w-0DTxuc_n8uISJRtks3Xw3A). We are typically available Monday-Friday, 9am-5pm London time.
