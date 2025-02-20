@@ -58,6 +58,20 @@ Thanks to these features, log_do helps you build complex sysadmin bash scripts i
 
 To learn more, view [log_do on Github](https://github.com/newsnowlabs/log_do).
 
+## BundELF
+
+BundELF (pron. 'Bundle-f') is a Linux ELF dynamically-linked binary executable patcher and bundler. It creates distribution-independent executable package bundles, for any tool, utility, or application. Its bundled packages, consisting of patched binaries and dynamic libraries, provide much the same benefits as statically-compiled binaries but without the recompilation faff.
+
+Compared to statically-compiled binaries, BundELF-generated binaries make a much simpler and more generalised alternative, because statically-compiled binaries:
+
+1. are not always (or even often) readily available;
+2. can be hard and costly to compile manually;
+3. cannot be generated for certain applications and tools which inherently rely on being able to load dynamic libaries.
+
+By contrast, BundELF can patch and bundle _any_ pre-existing ELF binary -- tool, utility or application -- along with its dynamic (shared or non-shared) library dependencies, for relocation to (and execution from) any chosen filesystem location, making them completely portable and independent of the sourde distribution, much like statically-compiled binaries.
+
+To learn more, view [BundELF on Github](https://github.com/newsnowlabs/bundelf).
+
 ## Contact
 
 Please reach out to us with any suggestions or queries on the [NewsNow Labs Slack Workspace](https://join.slack.com/t/newsnowlabs/shared_invite/zt-wp54l05w-0DTxuc_n8uISJRtks3Xw3A). We are typically available Monday-Friday, 9am-5pm London time.
