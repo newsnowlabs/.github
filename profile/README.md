@@ -70,6 +70,8 @@ Compared to statically-compiled binaries, BundELF-generated binaries make a much
 
 By contrast, BundELF can patch and bundle _any_ pre-existing ELF binary -- tool, utility or application -- along with its dynamic (shared or non-shared) library dependencies, for relocation to (and execution from) any chosen filesystem location, making them completely portable and independent of the sourde distribution, much like statically-compiled binaries.
 
+BundELF is a foundational technology component of [Dockside](https://github.com/newsnowlabs/dockside) and [RunCVM](https://github.com/newsnowlabs/runcvm).
+
 To learn more, view [BundELF on Github](https://github.com/newsnowlabs/bundelf).
 
 ## Contact
